@@ -1,0 +1,18 @@
+.dockerignore -> Diese dient zum Ausschließen von Dateien und Verzeichnissen aus dem Build-Kontext
+
+docker-compose.yml -> Docker Compose ist ein Tool zum Definieren und Ausführen von Docker-Anwendungen mit mehreren Containern. 
+Mit Compose verwenden Sie eine YAML-Datei, um die Dienste Ihrer Anwendung zu konfigurieren. Anschließend erstellen und starten 
+Sie mit einem einzigen Befehl alle Dienste aus Ihrer Konfiguration.
+
+Dockerfile -> eine Textdatei, die mit verschiedenen Befehlen ein Image beschreibt. Diese werden bei der Ausführung abgearbeitet 
+und für jeden Befehl wird ein einzelner Layer angelegt
+
+requirements.dev.txt: Die Voraussetzungen für die Entwicklung
+
+requirements.txt: Die allgemeinen Voraussetzungen
+
+/.github./workflows/checks.yml: Dient zum Upload von Github-Actions
+
+.flake8: Mit dieser Datei können bestimmte Dateien von der Untersuchung von flake8 ausgeschlossen werden
+
+manage.py: erstellt mit Django und Python eine virtuelle Umgebung
