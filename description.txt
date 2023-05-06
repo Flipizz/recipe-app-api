@@ -16,3 +16,5 @@ requirements.txt: Die allgemeinen Voraussetzungen
 .flake8: Mit dieser Datei können bestimmte Dateien von der Untersuchung von flake8 ausgeschlossen werden
 
 manage.py: erstellt mit Django und Python eine virtuelle Umgebung
+
+test
